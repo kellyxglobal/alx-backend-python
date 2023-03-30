@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 def add(a: float, b: float) -> float:
     """
     Returns the sum of two float numbers.
@@ -16,4 +17,3 @@ def add(a: float, b: float) -> float:
     3.0
     """
     return a + b
-

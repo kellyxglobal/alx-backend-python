@@ -19,7 +19,7 @@ async def wait_random_time(wait_random: int = 10) -> float:
     """
 
     # Generate a random delay between 0 and wait_random seconds (inclusive)
-    delay = random.uniform(0, wait_random)
+    delay = random.uniform(0, wait_random - 1)
 
     # Wait for the specified delay
     await asyncio.sleep(delay)
